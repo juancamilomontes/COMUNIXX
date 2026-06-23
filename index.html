@@ -9,19 +9,45 @@
 </head>
 <body class="bg-[#24a637] text-white font-sans antialiased">
 
-    <nav id="navbar">
-        <div class="max-w-6xl mx-auto px-4 py-4">
-            <h1 class="text-2xl font-bold">COMUNIX</h1>
+    <nav id="navbar" class="bg-white text-gray-800 shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+
+        <h1 class="text-2xl font-bold text-[#24a637] tracking-wide">COMUNIX</h1>
+        
+        
+        <div class="space-x-6 font-medium text-gray-600 hidden sm:flex">
+            <a href="#" class="hover:text-[#24a637] transition duration-200">Inicio</a>
+            <a href="#modules" class="hover:text-[#24a637] transition duration-200">Servicios</a>
+            <a href="#quick-guide" class="hover:text-[#24a637] transition duration-200">Guía Básica</a>
         </div>
-    </nav>
+    </div>
+</nav>
 
 
-    <header id="hero">
-        <div class="max-w-6xl mx-auto px-4 py-16">
-            <h1 class="text-4xl font-bold mb-4">Bienvenidos a COMUNIX</h1>
-            <p class="text-lg">Aprende y desarrolla tus habilidades en tecnología</p>
+<header id="hero" class="bg-[#24a637] text-white border-b border-green-600">
+    <div class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between gap-8">
+        
+    
+        <div class="max-w-2xl text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+                Bienvenidos a la plataforma de nuestra comunidad
+            </h1>
+            <p class="text-lg md:text-xl opacity-90 mb-8 font-light">
+                Este es el espacio digital de la Junta de Acción Comunal de la Vereda Potrerito. Diseñado para escucharte, mantenerte informado sobre las reuniones y trabajar juntos por nuestro sector.
+            </p>
+            
+            <a href="#modules" class="inline-block bg-white text-[#24a637] hover:bg-gray-100 font-bold py-3 px-8 rounded-xl shadow-md transition duration-300">
+                Ver servicios disponibles
+            </a>
         </div>
-    </header>
+
+    
+        <div class="text-8xl hidden md:block select-none transform hover:scale-105 transition duration-300">
+            🏡
+        </div>
+
+    </div>
+</header>
 
 
     <main class="max-w-6xl mx-auto px-4 py-8">
