@@ -1,173 +1,305 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMUNIX - JAC Vereda Potrerito</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COMUNIX — JAC Vereda Potrerito</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
 </head>
-<body class="bg-[#24a637] text-white font-sans antialiased">
+<body>
 
-    <nav id="navbar" class="bg-white text-gray-800 shadow-md sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-
-        <h1 class="text-2xl font-bold text-[#24a637] tracking-wide">COMUNIX</h1>
-        
-        
-        <div class="space-x-6 font-medium text-gray-600 hidden sm:flex">
-            <a href="#" class="hover:text-[#24a637] transition duration-200">Inicio</a>
-            <a href="#modules" class="hover:text-[#24a637] transition duration-200">Servicios</a>
-            <a href="#quick-guide" class="hover:text-[#24a637] transition duration-200">Guía Básica</a>
-        </div>
-    </div>
-</nav>
-
-
-<header id="hero" class="bg-[#24a637] text-white border-b border-green-600">
-    <div class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between gap-8">
-        
-    
-        <div class="max-w-2xl text-center md:text-left">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-                Bienvenidos a la plataforma de nuestra comunidad
-            </h1>
-            <p class="text-lg md:text-xl opacity-90 mb-8 font-light">
-                Este es el espacio digital de la Junta de Acción Comunal de la Vereda Potrerito. Diseñado para escucharte, mantenerte informado sobre las reuniones y trabajar juntos por nuestro sector.
-            </p>
-            
-            <a href="#modules" class="inline-block bg-white text-[#24a637] hover:bg-gray-100 font-bold py-3 px-8 rounded-xl shadow-md transition duration-300">
-                Ver servicios disponibles
-            </a>
-        </div>
-
-    
-        <div class="text-8xl hidden md:block select-none transform hover:scale-105 transition duration-300">
-            🏡
-        </div>
-
-    </div>
-</header>
-
-    <section id="que-es-comunix" class="py-16 bg-gray-50 text-gray-800">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6 text-[#24a637]">¿Qué es COMUNIX?</h2>
-            <p class="text-lg leading-relaxed text-gray-700 mb-6">
-                COMUNIX es un sistema web de gestión de servicios diseñado para apoyar a las Juntas de Acción Comunal (JAC). 
-                Nuestro objetivo es facilitar la radicación, organización y seguimiento eficiente de las PQRS 
-                (Peticiones, Quejas, Reclamos y Sugerencias) de nuestra comunidad.
-            </p>
-                <p class="text-lg leading-relaxed text-gray-700">
-                Buscamos mejorar la comunicación entre habitantes, turistas y la Junta de Acción Comunal, 
-                garantizando que cada solicitud sea gestionada de forma organizada y transparente.
-                </p>
-        </div>
-    </section>
-
-
-    <main class="max-w-6xl mx-auto px-4 py-8">
-
-        <section id="about" class="mb-16">
-
-        <div class="bg-white text-gray-800 rounded-2xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 max-w-5xl mx-auto">
-    
-    <div class="max-w-xl text-center md:text-left">
-        <span class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
-            ¡Haz parte del cambio!
-        </span>
-        <h2 class="text-2xl md:text-3xl font-bold mt-3 mb-4 text-gray-900">
-            ¿Aún no te has registrado en la plataforma?
-        </h2>
-        <p class="text-gray-600 leading-relaxed font-light">
-            Crea tu cuenta comunitaria en un par de minutos. Al registrarte, el sistema recordará tus datos para que puedas enviar tus mensajes más rápido y consultar el estado de tus solicitudes en cualquier momento.
-        </p>
-    </div>
-
-    
-    <div class="w-full md:w-auto flex justify-center">
-        
-        <a href="#" class="bg-[#24a637] hover:bg-green-700 text-white font-bold text-lg py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 whitespace-nowrap text-center w-full md:w-auto">
-            Crear mi cuenta
-        </a>
-    </div>
-
-</div>    
-            </section>
-
-
-        <section id="modules" class="mb-16">
-
-
-
-<h2 class="text-3xl font-bold mb-8 text-center text-white">Servicios de la Comunidad</h2>
-
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    
-
-    <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
-        <div class="text-4xl mb-4">📬</div>
-        <h3 class="text-xl font-bold mb-2">Buzón Comunitario</h3>
-        <p class="mb-6 text-gray-600">Envía tus sugerencias, reclamos o peticiones a la Junta de Acción Comunal de forma rápida y sencilla.</p>
-        <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
-            Escribir mensaje
-        </a>
-    </div>
-
-
-    <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
-        <div class="text-4xl mb-4">📰</div>
-        <h3 class="text-xl font-bold mb-2">Cartelera Informativa</h3>
-        <p class="mb-6 text-gray-600">Entérate de las últimas noticias, actividades y decisiones importantes de nuestra vereda.</p>
-        <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
-            Ver noticias
-        </a>
-    </div>
-
-
-    <div class="bg-gray-100 text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-2 border-gray-300">
-        <div class="text-4xl mb-4">🔐</div>
-        <h3 class="text-xl font-bold mb-2">Portal de la JAC</h3>
-        <p class="mb-6 text-gray-600">Acceso exclusivo para los líderes. Ingresa aquí para revisar y responder los mensajes de la comunidad.</p>
-        <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
-            Ingresar
-        </a>
-    </div>
-
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-logo">
+  <img src="assets/img/Logo JAC Potrerito.jpeg" alt="Logo JAC Vereda Potrerito" class="nav-logo-img" />
+  <span class="nav-name">COMUNIX</span>
 </div>
+      <ul class="nav-links">
+        <li><a href="#que-es">¿Qué es?</a></li>
+        <li><a href="#modulos">Módulos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#footer">Contacto</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn-ghost">Ingresar</button>
+        <button class="btn-primary">Empezar →</button>
+      </div>
+    </div>
+  </nav>
 
-            </section>
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-container">
 
-
-        <section id="faq" class="mb-16">
-    <h2 class="text-3xl font-bold mb-8 text-center text-[#24a637]">Preguntas Frecuentes</h2>
-    <div class="max-w-4xl mx-auto space-y-4">
-        
-        <div class="bg-white p-6 rounded-xl shadow-md">
-            <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Cómo radico una PQRS?</h3>
-            <p class="text-gray-700">A través del Buzón Comunitario puedes enviar tus peticiones, quejas, reclamos o sugerencias. El sistema te pedirá clasificar el tipo de solicitud para dirigirla al comité correspondiente de la JAC.</p>
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          JAC Vereda Potrerito · Bello, Antioquia
         </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md">
-            <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Puedo enviar solicitudes de forma anónima?</h3>
-            <p class="text-gray-700">Sí, la plataforma cuenta con una opción para radicar tus procesos de manera anónima, garantizando que tu identidad quede protegida y solo se comparta con el comité encargado.</p>
+        <h1>La gestión comunal,<br><em>ahora digital</em></h1>
+        <p class="hero-sub">
+          Radicá PQRS, consultá decisiones y mantente informado de lo que pasa en tu vereda — desde cualquier dispositivo con internet.
+        </p>
+        <div class="hero-btns">
+          <button class="btn-primary">Explorar sistema</button>
+          <button class="btn-outline">
+            <i class="ti ti-player-play"></i> Ver tutorial
+          </button>
         </div>
+      </div>
 
-        <div class="bg-white p-6 rounded-xl shadow-md">
-            <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Para qué sirve registrarse en la plataforma?</h3>
-            <p class="text-gray-700">Crear una cuenta te permite guardar tus datos para agilizar futuros envíos, realizar un seguimiento del estado de tus solicitudes y recibir notificaciones importantes de la comunidad.</p>
+      <div class="hero-right">
+        <div class="demo-card">
+          <div class="demo-header">
+            <span class="demo-dot" style="background:#ff5f57;"></span>
+            <span class="demo-dot" style="background:#febc2e;"></span>
+            <span class="demo-dot" style="background:#28c840;"></span>
+            <span class="demo-title">COMUNIX — Panel ciudadano</span>
+          </div>
+          <div class="demo-body">
+            <div class="demo-row">
+              <div class="demo-row-left">
+                <i class="ti ti-clipboard-list"></i>
+                <div>
+                  <div class="demo-row-text">PQRS #042 — Alumbrado público</div>
+                  <div class="demo-row-sub">Radicada hace 2 días</div>
+                </div>
+              </div>
+              <span class="demo-tag tag-progress">En curso</span>
+            </div>
+            <div class="demo-row">
+              <div class="demo-row-left">
+                <i class="ti ti-speakerphone"></i>
+                <div>
+                  <div class="demo-row-text">Aviso — Reunión ordinaria JAC</div>
+                  <div class="demo-row-sub">Publicado hoy</div>
+                </div>
+              </div>
+              <span class="demo-tag tag-new">Nuevo</span>
+            </div>
+            <div class="demo-row">
+              <div class="demo-row-left">
+                <i class="ti ti-file-text"></i>
+                <div>
+                  <div class="demo-row-text">Acta N° 12 — Mayo 2025</div>
+                  <div class="demo-row-sub">Documento aprobado</div>
+                </div>
+              </div>
+              <span class="demo-tag tag-done">Listo</span>
+            </div>
+            <div class="demo-search">
+              <i class="ti ti-search"></i>
+              <span>Buscar radicados, avisos, documentos...</span>
+            </div>
+          </div>
         </div>
+      </div>
 
     </div>
-</section>
+  </section>
 
-    </main>
+  <!-- ===== TRUST ===== -->
+  <div id="trust">
+    <div class="trust-container">
+      <span class="trust-label">Respaldado por</span>
+      <div class="trust-items">
+        <div class="trust-item"><i class="ti ti-building"></i> SENA CTMA</div>
+        <div class="trust-item"><i class="ti ti-map-pin"></i> Vereda Potrerito</div>
+        <div class="trust-item"><i class="ti ti-users"></i> ~1.000 habitantes</div>
+      </div>
+    </div>
+  </div>
 
+  <!-- ===== STATS ===== -->
+  <div id="stats">
+    <div class="stat">
+      <div class="stat-number">80%</div>
+      <div class="stat-label">Con acceso a internet</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">65%</div>
+      <div class="stat-label">Nunca ha radicado PQRS</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3.8/5</div>
+      <div class="stat-label">Disposición a usar el sistema</div>
+    </div>
+  </div>
 
-    <footer id="footer">
-        </footer>
+  <!-- ===== QUÉ ES COMUNIX ===== -->
+  <section id="que-es">
+    <div class="section-container">
+      <div class="section-tag">¿Qué es COMUNIX?</div>
+      <h2 class="section-title">Un sistema hecho para tu comunidad</h2>
+      <p class="section-desc">
+        Digitalizamos la administración de la JAC para que cada habitante tenga acceso real a lo que pasa en su vereda.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ti ti-shield-check"></i></div>
+          <div class="feature-title">Transparencia</div>
+          <p class="feature-text">Actas, decisiones y comunicados disponibles para toda la comunidad.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ti ti-message-circle"></i></div>
+          <div class="feature-title">Comunicación directa</div>
+          <p class="feature-text">Canal oficial entre la comunidad y los dignatarios de la junta.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ti ti-files"></i></div>
+          <div class="feature-title">Gestión documental</div>
+          <p class="feature-text">Documentos organizados sin necesidad de ir en persona.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ti ti-users"></i></div>
+          <div class="feature-title">Participación real</div>
+          <p class="feature-text">Herramientas para que cada habitante tenga voz activa en la vereda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===== MÓDULOS ===== -->
+  <section id="modulos">
+    <div class="section-container">
+      <div class="section-tag">Módulos del sistema</div>
+      <h2 class="section-title">Todo lo que necesita la JAC</h2>
+      <p class="section-desc">Cinco módulos que cubren los procesos más críticos de la junta.</p>
 
-    <script src="assets/js/main.js"></script>
+      <div class="module-row">
+        <div class="module-text">
+          <div class="module-tag">Módulo 1</div>
+          <h3 class="module-title">Radicación de PQRS</h3>
+          <p class="module-desc">Peticiones, quejas y reclamos con seguimiento en tiempo real. Ya no toca ir a buscar a nadie — todo queda registrado.</p>
+        </div>
+        <div class="module-preview">
+          <div class="preview-pill"><i class="ti ti-clipboard-list"></i><span>PQRS #043 — Vías</span></div>
+          <div class="preview-line accent"></div>
+          <div class="preview-line short"></div>
+        </div>
+      </div>
+
+      <div class="module-row reverse">
+        <div class="module-preview">
+          <div class="preview-pill"><i class="ti ti-speakerphone"></i><span>Aviso publicado</span></div>
+          <div class="preview-line accent"></div>
+          <div class="preview-line medium"></div>
+        </div>
+        <div class="module-text">
+          <div class="module-tag">Módulo 2</div>
+          <h3 class="module-title">Divulgación de información</h3>
+          <p class="module-desc">Noticias, avisos y convocatorias de la JAC llegando directo al ciudadano, sin depender del voz a voz.</p>
+        </div>
+      </div>
+
+      <div class="module-row">
+        <div class="module-text">
+          <div class="module-tag">Módulo 3</div>
+          <h3 class="module-title">Gestión documental</h3>
+          <p class="module-desc">Actas, resoluciones y documentos oficiales organizados y accesibles desde cualquier dispositivo.</p>
+        </div>
+        <div class="module-preview">
+          <div class="preview-pill"><i class="ti ti-file-text"></i><span>Acta N° 12 aprobada</span></div>
+          <div class="preview-line accent"></div>
+          <div class="preview-line short"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section id="cta">
+    <div class="cta-box">
+      <h2>¿Hacés parte de Vereda Potrerito?</h2>
+      <p>COMUNIX es para toda la comunidad. Ingresá, radicá tus PQRS y mantente al tanto de lo que pasa en tu vereda.</p>
+      <button class="btn-primary btn-lg">Acceder al sistema →</button>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq">
+    <div class="section-container">
+      <div class="section-tag">Preguntas frecuentes</div>
+      <h2 class="section-title">Lo que más nos preguntan</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Necesito crear una cuenta?</span>
+            <i class="ti ti-plus"></i>
+          </button>
+          <div class="faq-answer">
+            Sí, con tu nombre y datos básicos. El proceso toma menos de 2 minutos.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Puedo radicar desde el celular?</span>
+            <i class="ti ti-plus"></i>
+          </button>
+          <div class="faq-answer">
+            Claro. COMUNIX está diseñado para funcionar en celulares, tablets y computadores sin problemas.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Cuánto tarda la JAC en responder?</span>
+            <i class="ti ti-plus"></i>
+          </button>
+          <div class="faq-answer">
+            Depende del tipo de solicitud. El sistema te notifica en cada cambio de estado de tu PQRS.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Qué pasa si no tengo internet?</span>
+            <i class="ti ti-plus"></i>
+          </button>
+          <div class="faq-answer">
+            COMUNIX funciona en cualquier dispositivo con conexión. En la vereda hay puntos de acceso comunitario disponibles.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="nav-mark">JAC</span>
+          <span class="nav-name">COMUNIX</span>
+        </div>
+        <p>Sistema de gestión digital para la JAC Vereda Potrerito, Bello, Antioquia.<br><br>Personería Jurídica N° 051 del 15 de febrero de 1972.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Módulos</h5>
+        <a href="#">Gestión JAC</a>
+        <a href="#">PQRS</a>
+        <a href="#">Divulgación</a>
+        <a href="#">Documentos</a>
+        <a href="#">Notificaciones</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contacto</h5>
+        <a href="#">Vereda Potrerito</a>
+        <a href="#">Bello, Antioquia</a>
+        <a href="#">Colombia</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 COMUNIX · JAC Vereda Potrerito</span>
+      <span class="footer-slogan">Comunidad Eco Turística, Con Visión En Acción</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
