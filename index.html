@@ -10,44 +10,47 @@
 <body class="bg-[#24a637] text-white font-sans antialiased">
 
     <nav id="navbar" class="bg-white text-gray-800 shadow-md sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-
-        <h1 class="text-2xl font-bold text-[#24a637] tracking-wide">COMUNIX</h1>
-        
-        
-        <div class="space-x-6 font-medium text-gray-600 hidden sm:flex">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-[#24a637] tracking-wide">COMUNIX</h1>
+            <!-- Links escritorio -->
+            <div class="space-x-6 font-medium text-gray-600 hidden sm:flex">
+                <a href="#" class="hover:text-[#24a637] transition duration-200">Inicio</a>
+                <a href="#modules" class="hover:text-[#24a637] transition duration-200">Servicios</a>
+                <a href="#quick-guide" class="hover:text-[#24a637] transition duration-200">Guía Básica</a>
+            </div>
+            <!-- Botón hamburguesa móvil -->
+            <button id="menu-btn" class="sm:hidden flex flex-col gap-1.5 p-2" aria-label="Abrir menú">
+                <span class="block w-6 h-0.5 bg-gray-700"></span>
+                <span class="block w-6 h-0.5 bg-gray-700"></span>
+                <span class="block w-6 h-0.5 bg-gray-700"></span>
+            </button>
+        </div>
+        <!-- Menú móvil desplegable -->
+        <div id="mobile-menu" class="hidden sm:hidden bg-white border-t border-gray-100 px-4 py-3 flex flex-col gap-3 font-medium text-gray-600">
             <a href="#" class="hover:text-[#24a637] transition duration-200">Inicio</a>
             <a href="#modules" class="hover:text-[#24a637] transition duration-200">Servicios</a>
             <a href="#quick-guide" class="hover:text-[#24a637] transition duration-200">Guía Básica</a>
         </div>
-    </div>
-</nav>
+    </nav>
 
-
-<header id="hero" class="bg-[#24a637] text-white border-b border-green-600">
-    <div class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between gap-8">
-        
-    
-        <div class="max-w-2xl text-center md:text-left">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-                Bienvenidos a la plataforma de nuestra comunidad
-            </h1>
-            <p class="text-lg md:text-xl opacity-90 mb-8 font-light">
-                Este es el espacio digital de la Junta de Acción Comunal de la Vereda Potrerito. Diseñado para escucharte, mantenerte informado sobre las reuniones y trabajar juntos por nuestro sector.
-            </p>
-            
-            <a href="#modules" class="inline-block bg-white text-[#24a637] hover:bg-gray-100 font-bold py-3 px-8 rounded-xl shadow-md transition duration-300">
-                Ver servicios disponibles
-            </a>
+    <header id="hero" class="bg-[#24a637] text-white border-b border-green-600">
+        <div class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="max-w-2xl text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+                    Bienvenidos a la plataforma de nuestra comunidad
+                </h1>
+                <p class="text-lg md:text-xl opacity-90 mb-8 font-light">
+                    Este es el espacio digital de la Junta de Acción Comunal de la Vereda Potrerito. Diseñado para escucharte, mantenerte informado sobre las reuniones y trabajar juntos por nuestro sector.
+                </p>
+                <a href="#modules" class="inline-block bg-white text-[#24a637] hover:bg-gray-100 font-bold py-3 px-8 rounded-xl shadow-md transition duration-300">
+                    Ver servicios disponibles
+                </a>
+            </div>
+            <div class="text-8xl hidden md:block select-none transform hover:scale-105 transition duration-300">
+                🏡
+            </div>
         </div>
-
-    
-        <div class="text-8xl hidden md:block select-none transform hover:scale-105 transition duration-300">
-            🏡
-        </div>
-
-    </div>
-</header>
+    </header>
 
     <section id="que-es-comunix" class="py-16 bg-gray-50 text-gray-800">
         <div class="max-w-4xl mx-auto px-4 text-center">
@@ -57,117 +60,134 @@
                 Nuestro objetivo es facilitar la radicación, organización y seguimiento eficiente de las PQRS 
                 (Peticiones, Quejas, Reclamos y Sugerencias) de nuestra comunidad.
             </p>
-                <p class="text-lg leading-relaxed text-gray-700">
+            <p class="text-lg leading-relaxed text-gray-700">
                 Buscamos mejorar la comunicación entre habitantes, turistas y la Junta de Acción Comunal, 
                 garantizando que cada solicitud sea gestionada de forma organizada y transparente.
-                </p>
+            </p>
         </div>
     </section>
-
 
     <main class="max-w-6xl mx-auto px-4 py-8">
 
         <section id="about" class="mb-16">
-
-        <div class="bg-white text-gray-800 rounded-2xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 max-w-5xl mx-auto">
-    
-    <div class="max-w-xl text-center md:text-left">
-        <span class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
-            ¡Haz parte del cambio!
-        </span>
-        <h2 class="text-2xl md:text-3xl font-bold mt-3 mb-4 text-gray-900">
-            ¿Aún no te has registrado en la plataforma?
-        </h2>
-        <p class="text-gray-600 leading-relaxed font-light">
-            Crea tu cuenta comunitaria en un par de minutos. Al registrarte, el sistema recordará tus datos para que puedas enviar tus mensajes más rápido y consultar el estado de tus solicitudes en cualquier momento.
-        </p>
-    </div>
-
-    
-    <div class="w-full md:w-auto flex justify-center">
-        
-        <a href="#" class="bg-[#24a637] hover:bg-green-700 text-white font-bold text-lg py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 whitespace-nowrap text-center w-full md:w-auto">
-            Crear mi cuenta
-        </a>
-    </div>
-
-</div>    
-            </section>
-
+            <div class="bg-white text-gray-800 rounded-2xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 max-w-5xl mx-auto">
+                <div class="max-w-xl text-center md:text-left">
+                    <span class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+                        ¡Haz parte del cambio!
+                    </span>
+                    <h2 class="text-2xl md:text-3xl font-bold mt-3 mb-4 text-gray-900">
+                        ¿Aún no te has registrado en la plataforma?
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed font-light">
+                        Crea tu cuenta comunitaria en un par de minutos. Al registrarte, el sistema recordará tus datos para que puedas enviar tus mensajes más rápido y consultar el estado de tus solicitudes en cualquier momento.
+                    </p>
+                </div>
+                <div class="w-full md:w-auto flex justify-center">
+                    <a href="#" class="bg-[#24a637] hover:bg-green-700 text-white font-bold text-lg py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 whitespace-nowrap text-center w-full md:w-auto">
+                        Crear mi cuenta
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <section id="modules" class="mb-16">
-
-
-
-<h2 class="text-3xl font-bold mb-8 text-center text-white">Servicios de la Comunidad</h2>
-
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    
-
-    <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
-        <div class="text-4xl mb-4">📬</div>
-        <h3 class="text-xl font-bold mb-2">Buzón Comunitario</h3>
-        <p class="mb-6 text-gray-600">Envía tus sugerencias, reclamos o peticiones a la Junta de Acción Comunal de forma rápida y sencilla.</p>
-        <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
-            Escribir mensaje
-        </a>
-    </div>
-
-
-    <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
-        <div class="text-4xl mb-4">📰</div>
-        <h3 class="text-xl font-bold mb-2">Cartelera Informativa</h3>
-        <p class="mb-6 text-gray-600">Entérate de las últimas noticias, actividades y decisiones importantes de nuestra vereda.</p>
-        <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
-            Ver noticias
-        </a>
-    </div>
-
-
-    <div class="bg-gray-100 text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-2 border-gray-300">
-        <div class="text-4xl mb-4">🔐</div>
-        <h3 class="text-xl font-bold mb-2">Portal de la JAC</h3>
-        <p class="mb-6 text-gray-600">Acceso exclusivo para los líderes. Ingresa aquí para revisar y responder los mensajes de la comunidad.</p>
-        <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
-            Ingresar
-        </a>
-    </div>
-
-</div>
-
-            </section>
-
+            <h2 class="text-3xl font-bold mb-8 text-center text-white">Servicios de la Comunidad</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+                    <div class="text-4xl mb-4">📬</div>
+                    <h3 class="text-xl font-bold mb-2">Buzón Comunitario</h3>
+                    <p class="mb-6 text-gray-600">Envía tus sugerencias, reclamos o peticiones a la Junta de Acción Comunal de forma rápida y sencilla.</p>
+                    <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
+                        Escribir mensaje
+                    </a>
+                </div>
+                <div class="bg-white text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+                    <div class="text-4xl mb-4">📰</div>
+                    <h3 class="text-xl font-bold mb-2">Cartelera Informativa</h3>
+                    <p class="mb-6 text-gray-600">Entérate de las últimas noticias, actividades y decisiones importantes de nuestra vereda.</p>
+                    <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
+                        Ver noticias
+                    </a>
+                </div>
+                <div class="bg-gray-100 text-gray-800 rounded-xl shadow-lg p-6 flex flex-col items-center text-center border-2 border-gray-300">
+                    <div class="text-4xl mb-4">🔐</div>
+                    <h3 class="text-xl font-bold mb-2">Portal de la JAC</h3>
+                    <p class="mb-6 text-gray-600">Acceso exclusivo para los líderes. Ingresa aquí para revisar y responder los mensajes de la comunidad.</p>
+                    <a href="#" class="mt-auto bg-[#24a637] hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
+                        Ingresar
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <section id="faq" class="mb-16">
-    <h2 class="text-3xl font-bold mb-8 text-center text-[#24a637]">Preguntas Frecuentes</h2>
-    <div class="max-w-4xl mx-auto space-y-4">
-        
-        <div class="bg-white p-6 rounded-xl shadow-md">
-            <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Cómo radico una PQRS?</h3>
-            <p class="text-gray-700">A través del Buzón Comunitario puedes enviar tus peticiones, quejas, reclamos o sugerencias. El sistema te pedirá clasificar el tipo de solicitud para dirigirla al comité correspondiente de la JAC.</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md">
-            <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Puedo enviar solicitudes de forma anónima?</h3>
-            <p class="text-gray-700">Sí, la plataforma cuenta con una opción para radicar tus procesos de manera anónima, garantizando que tu identidad quede protegida y solo se comparta con el comité encargado.</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-md">
-            <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Para qué sirve registrarse en la plataforma?</h3>
-            <p class="text-gray-700">Crear una cuenta te permite guardar tus datos para agilizar futuros envíos, realizar un seguimiento del estado de tus solicitudes y recibir notificaciones importantes de la comunidad.</p>
-        </div>
-
-    </div>
-</section>
+            <h2 class="text-3xl font-bold mb-8 text-center text-[#24a637]">Preguntas Frecuentes</h2>
+            <div class="max-w-4xl mx-auto space-y-4">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Cómo radico una PQRS?</h3>
+                    <p class="text-gray-700">A través del Buzón Comunitario puedes enviar tus peticiones, quejas, reclamos o sugerencias. El sistema te pedirá clasificar el tipo de solicitud para dirigirla al comité correspondiente de la JAC.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Puedo enviar solicitudes de forma anónima?</h3>
+                    <p class="text-gray-700">Sí, la plataforma cuenta con una opción para radicar tus procesos de manera anónima, garantizando que tu identidad quede protegida y solo se comparta con el comité encargado.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-2 text-[#24a637]">¿Para qué sirve registrarse en la plataforma?</h3>
+                    <p class="text-gray-700">Crear una cuenta te permite guardar tus datos para agilizar futuros envíos, realizar un seguimiento del estado de tus solicitudes y recibir notificaciones importantes de la comunidad.</p>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-
-    <footer id="footer">
-        </footer>
-
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-[#1a7a2a] text-white mt-8">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Columna 1 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-3">COMUNIX</h3>
+                    <p class="text-green-200 text-sm leading-relaxed">
+                        Sistema de gestión digital para la JAC Vereda Potrerito, Bello, Antioquia.<br><br>
+                        Personería Jurídica N° 051 del 15 de febrero de 1972.
+                    </p>
+                </div>
+                <!-- Columna 2 -->
+                <div>
+                    <h4 class="font-semibold mb-3 text-green-100 uppercase text-xs tracking-wider">Servicios</h4>
+                    <ul class="space-y-2 text-sm text-green-200">
+                        <li><a href="#" class="hover:text-white transition duration-200">Buzón Comunitario</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-200">Cartelera Informativa</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-200">Portal de la JAC</a></li>
+                        <li><a href="#faq" class="hover:text-white transition duration-200">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <!-- Columna 3 -->
+                <div>
+                    <h4 class="font-semibold mb-3 text-green-100 uppercase text-xs tracking-wider">Contacto</h4>
+                    <ul class="space-y-2 text-sm text-green-200">
+                        <li>Vereda Potrerito</li>
+                        <li>Bello, Antioquia</li>
+                        <li>Colombia</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Footer bottom -->
+            <div class="border-t border-green-600 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-green-300">
+                <span>© 2025 COMUNIX · JAC Vereda Potrerito</span>
+                <span class="italic">Comunidad Eco Turística, Con Visión En Acción</span>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/main.js"></script>
+    <script>
+        // Hamburguesa móvil
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>
